@@ -1,0 +1,38 @@
+<div class="wrapper">
+    <%- include('header'); %> 
+    <main class="container flex-fill">
+        <div class="intro">
+            <h3>This is a simple blog wesite.</h3>
+            <h4>Following technologies have been implemented in developing this demo</h4>
+            <div class="row">
+                <div class="col-4">
+                  <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-js-side" data-toggle="list" href="#list-js" role="tab" aria-controls="home">JavaScript</a>
+                    <a class="list-group-item list-group-item-action" id="list-ejs-side" data-toggle="list" href="#list-ejs" role="tab" aria-controls="profile">EJS</a>
+                    <a class="list-group-item list-group-item-action" id="list-express-side" data-toggle="list" href="#list-express" role="tab" aria-controls="messages">Express</a>
+                    <a class="list-group-item list-group-item-action" id="list-mongoose-side" data-toggle="list" href="#list-mongoose" role="tab" aria-controls="settings">Mongoose</a>
+                    <a class="list-group-item list-group-item-action" id="list-bootstrap-side" data-toggle="list" href="#list-bootstrap" role="tab" aria-controls="settings">Bootstrap</a>
+
+                  </div>
+                </div>
+                <div class="col-8">
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-js" role="tabpanel" aria-labelledby="list-js-side">JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</div>
+                    <div class="tab-pane fade" id="list-ejs" role="tabpanel" aria-labelledby="list-ejs-side">What is the "E" for? "Embedded?" Could be. How about "Effective," "Elegant," or just "Easy"? EJS is a simple templating language that lets you generate HTML markup with plain JavaScript. No religiousness about how to organize things. No reinvention of iteration and control-flow. It's just plain JavaScript.</div>
+                    <div class="tab-pane fade" id="list-express" role="tabpanel" aria-labelledby="list-express-side">Express.js, or simply Express, is a web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.
+                        The original author, TJ Holowaychuk, described it as a Sinatra-inspired server,meaning that it is relatively minimal with many features available as plugins. Express is the back-end component of the MEAN stack, together with the MongoDB database software and AngularJS front-end framework.</div>
+                    <div class="tab-pane fade" id="list-mongoose" role="tabpanel" aria-labelledby="list-mongoose-side">Mongoose is an Object Document Mapper (ODM). This means that Mongoose allows you to define objects with a strongly-typed schema that is mapped to a MongoDB document.
+
+                        Mongoose provides an incredible amount of functionality around creating and working with schemas. Mongoose currently contains eight SchemaTypes that a property is saved as when it is persisted to MongoDB</div>
+                    <div class="tab-pane fade" id="list-bootstrap" role="tabpanel" aria-labelledby="list-bootstrap-side">Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+
+                        Bootstrap is the seventh-most-starred project on GitHub, with more than 142,000 stars, behind freeCodeCamp (almost 312,000 stars) and marginally behind Vue.js framework.According to Alexa Rank, Bootstrap is in the top-2000 in the USA while vuejs.org is in the top-7000 in the USA.</div>
+
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+    </main>
+    <%- include('footer'); %> 
+    </div>

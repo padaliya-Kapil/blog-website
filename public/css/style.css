@@ -1,0 +1,62 @@
+.profile-image{
+    border-radius: 100%;
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 20px;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer{
+    text-align: center;
+}
+
+.blogpost{
+    margin-top : 30px;
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.submit-button{
+	text-align: center;
+}
+
+.newpost{
+	margin-top: 30px;
+}
+
+.individualpost{
+	margin-top: 30px;
+}
+
+.individualpost h5{
+	text-align: end;
+
+}
+
+.individualpost p{
+margin-top: 20px;
+}
+
+.intro{
+	margin-top: 30px;
+}

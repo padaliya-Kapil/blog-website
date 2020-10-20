@@ -1,0 +1,16 @@
+<div class="wrapper">
+<%- include('header'); %> 
+<main class="container flex-fill">
+    <% for(var i=0; i < blogs.length; i++) {%>
+    <div class="blogpost">
+    <h2><%= blogs[i].posttitle   %>  </h2>
+    <p><%= blogs[i].postcontent.substring(0, 300)+'...' %> <a href='/post/<%= blogs[i]._id %> ' >Read more</a> </p>
+    <% } %> 
+</div>
+
+<a href="/addpost" class="float btn-success">
+    <i class="fa fa-plus my-float"></i>
+    </a>
+</main>
+<%- include('footer'); %> 
+</div>

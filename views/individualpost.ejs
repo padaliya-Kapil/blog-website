@@ -1,0 +1,11 @@
+<div class="wrapper">
+    <%- include('header'); %> 
+<main class="container flex-fill">
+    <div class="individualpost">
+    <h1><%= post.posttitle %> </h1>
+    <h5 class="text-muted">By <%= author %></h5>
+    <p><%= post.postcontent %> </p>
+    </div>
+    </main>
+<%- include('footer'); %> 
+</div>
